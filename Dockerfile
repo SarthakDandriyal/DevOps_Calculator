@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 COPY  ./target/DevOps_Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
 CMD ["java", "-jar", "DevOps_Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar"]
