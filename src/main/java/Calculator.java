@@ -1,19 +1,23 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import java.util.Scanner;
 import static java.lang.System.exit;
 
 public class Calculator {
-
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator(){
     }
 
     public double squareRoot(double var){
+        logger.info("Calculating Square Root of : " + var + "\n Result : " + Math.sqrt(var));
         return Math.sqrt(var);
     }
     public double factorial(double var){
         if(var < 0){
+            logger.info("Factorial of negative number is not possible!");
             return Double.NaN;
         }
         else{
@@ -21,15 +25,18 @@ public class Calculator {
             for(int i = 1; i <= var; i++){
                 fact *= i;
             }
+            logger.info("Factorial of the number : " + var + "\n Result is : " + fact);
             return fact;
         }
     }
 
     public double logarithm(double var){
+        logger.info("Calculating Natural Logarithm of : " + var + "\n Result : " + Math.log(var));
         return Math.log(var);
     }
 
     public double power(double var1, double var2){
+        logger.info("Power : " + var1 + "^" + var2 + "/n Result : " + Math.pow(var1, var2));
         return Math.pow(var1, var2);
     }
 
