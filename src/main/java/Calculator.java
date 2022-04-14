@@ -36,7 +36,7 @@ public class Calculator {
     }
 
     public double power(double var1, double var2){
-        logger.info("Power : " + var1 + "^" + var2 + "/n Result : " + Math.pow(var1, var2));
+        logger.info("Power : " + var1 + "^" + var2 + "\n Result : " + Math.pow(var1, var2));
         return Math.pow(var1, var2);
     }
 
