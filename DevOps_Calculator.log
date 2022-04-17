@@ -1,0 +1,8 @@
+[INFO] 04-14-2022 19:28:11 Calculator SQUARE_ROOT : 4.0
+ Result : 2.0
+[INFO] 04-14-2022 19:28:15 Calculator  FACTORIAL : 5.0
+ Result is : 120.0
+[INFO] 04-14-2022 19:28:19 Calculator LOGARITHM : 9.0
+ Result : 2.1972245773362196
+[INFO] 04-14-2022 19:30:19 Calculator POWER_FUNCTION : 4.0^4.0
+ Result : 256.0
