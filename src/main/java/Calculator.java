@@ -12,7 +12,7 @@ public class Calculator {
     }
 
     public double squareRoot(double var){
-        logger.info("Calculating Square Root of : " + var + "\n Result : " + Math.sqrt(var));
+        logger.info("SQUARE_ROOT : " + var + "\n Result : " + Math.sqrt(var));
         return Math.sqrt(var);
     }
     public double factorial(double var){
@@ -25,18 +25,18 @@ public class Calculator {
             for(int i = 1; i <= var; i++){
                 fact *= i;
             }
-            logger.info("Factorial of the number : " + var + "\n Result is : " + fact);
+            logger.info(" FACTORIAL : " + var + "\n Result is : " + fact);
             return fact;
         }
     }
 
     public double logarithm(double var){
-        logger.info("Calculating Natural Logarithm of : " + var + "\n Result : " + Math.log(var));
+        logger.info("LOGARITHM : " + var + "\n Result : " + Math.log(var));
         return Math.log(var);
     }
 
     public double power(double var1, double var2){
-        logger.info("Power : " + var1 + "^" + var2 + "\n Result : " + Math.pow(var1, var2));
+        logger.info("POWER_FUNCTION : " + var1 + "^" + var2 + "\n Result : " + Math.pow(var1, var2));
         return Math.pow(var1, var2);
     }
 
