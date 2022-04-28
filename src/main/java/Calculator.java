@@ -90,7 +90,7 @@ public class Calculator {
                     break;
 
                 case 5:
-                    System.out.println("------------------- Thank You -------------------");
+                    System.out.println("------------------ Thank You ------------------");
                     exit(0);
                 default:
                     System.out.println("Invalid choice entered!");
